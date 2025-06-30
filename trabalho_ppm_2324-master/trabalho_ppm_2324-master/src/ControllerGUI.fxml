@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="658.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <columnConstraints>
+      <ColumnConstraints halignment="CENTER" maxWidth="99.0" minWidth="10.0" prefWidth="82.0" />
+      <ColumnConstraints halignment="CENTER" maxWidth="157.0" minWidth="10.0" prefWidth="99.0" />
+      <ColumnConstraints halignment="CENTER" maxWidth="113.0" minWidth="10.0" prefWidth="95.0" />
+      <ColumnConstraints halignment="CENTER" maxWidth="127.0" minWidth="10.0" prefWidth="90.0" />
+      <ColumnConstraints halignment="CENTER" maxWidth="317.0" minWidth="5.0" prefWidth="98.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="595.0" minWidth="0.0" prefWidth="76.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="265.0" minWidth="10.0" prefWidth="79.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="265.0" minWidth="10.0" prefWidth="180.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="159.0" minHeight="10.0" prefHeight="75.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="159.0" minHeight="10.0" prefHeight="75.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="236.0" minHeight="10.0" prefHeight="77.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="273.0" minHeight="10.0" prefHeight="78.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="289.0" minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="295.0" minHeight="10.0" prefHeight="84.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="244.0" minHeight="0.0" prefHeight="90.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="174.0" minHeight="10.0" prefHeight="173.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="205.0" text="Mudar cor" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="507.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="178.0" text="Gerar novo jogo" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+      <TextField prefHeight="18.0" prefWidth="173.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+      <Label alignment="TOP_CENTER" prefHeight="71.0" prefWidth="94.0" text="Introduzir palavra" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+      <TextField layoutX="507.0" layoutY="261.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+      <Label alignment="TOP_LEFT" layoutX="507.0" layoutY="238.0" prefHeight="71.0" prefWidth="144.0" text="Introduzir coordenada x,y" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+      <TextField layoutX="507.0" layoutY="352.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+      <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="507.0" layoutY="329.0" prefHeight="71.0" prefWidth="144.0" text="Introduzir direção" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="206.0" text="Submeter" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+      <Label fx:id="AA" text="A" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label fx:id="AB" text="B" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Label fx:id="AC" text="C" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Label fx:id="AD" text="D" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <Label fx:id="AE" text="E" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+      <Label fx:id="BA" text="F" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label fx:id="BB" text="G" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Label fx:id="BC" text="H" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Label fx:id="BD" text="I" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <Label fx:id="BE" text="J" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+      <Label fx:id="CA" text="K" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label fx:id="CB" text="L" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Label fx:id="CC" text="M" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Label fx:id="CD" text="N" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <Label fx:id="CE" text="O" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+      <Label fx:id="DA" text="P" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label fx:id="DB" text="Q" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Label fx:id="DC" text="R" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Label fx:id="DD" text="S" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      <Label fx:id="DE" text="T" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+      <Label fx:id="EA" text="U" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Label fx:id="EB" text="V" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <Label fx:id="EC" text="W" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Label fx:id="ED" text="X" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+      <Label fx:id="EE" text="Y" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+   </children>
+</GridPane>
